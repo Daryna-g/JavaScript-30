@@ -7,7 +7,7 @@ function handleCheck(e) {
 	// And check that they are checking it
 	let inBetween = false;
 	if (e.shiftKey && this.checked) {
-		// go ahead and do what we please
+		// Go ahead and do what we please
 		// loop over every single checkbox
 		checkboxes.forEach(checkbox => {
 			console.log(checkbox);

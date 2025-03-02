@@ -48,7 +48,7 @@ dogs.forEach(dog => {
 	console.groupEnd(`${dog.name}`);
 });
 
-// counting
+// Counting
 console.count('Wes');
 console.count('Wes');
 console.count('Wes');
@@ -58,7 +58,7 @@ console.count('Wes');
 console.count('Jim');
 console.count('Wes');
 
-// timing
+// Timing
 console.time('feaching data');
 fetch('https://api.github.com/users/wesbos')
 	.then(data => data.json())
